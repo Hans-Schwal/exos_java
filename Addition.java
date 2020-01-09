@@ -15,5 +15,5 @@ public class Addition
         addition = n + n2 ;
         System.out.print("Le résultat de l'addition de ces deux nombres est: ");
         System.out.println(addition);
-        }
+    }
 }

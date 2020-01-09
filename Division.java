@@ -15,5 +15,5 @@ public class Division
         division = n / n2 ;
         System.out.print("Le résultat de la division de ces deux nombres est: ");
         System.out.println(division);
-        }
+    }
 }
