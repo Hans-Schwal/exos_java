@@ -4,12 +4,12 @@
 	
         public static void main(String[] args)	
         {
-            char versEtFoncProgramme;
+            String versEtFoncProgramme = ("**** Périmètre et surface du Cercle (V1.0, 09/01/20) ****");
             double rayon;
             double perimetre;
             double surface;
  
-            System.out.println("**** Périmètre et surface du Cercle (V1.0, 09/01/20) ****"); 
+            System.out.println(versEtFoncProgramme); 
             System.out.println("Entrer le rayon: ");
             rayon = Console.lireD();
             perimetre = 2 * PI * rayon;
