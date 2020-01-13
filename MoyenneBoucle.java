@@ -1,5 +1,7 @@
 /**
  * SommeMoyenne
+ * Ecrire un programme qui saisit des entiers et en affiche la somme et la moyenne (on arrête la saisie avec la valeur 0)
+ * Modifiez le programme de la moyenne pour afficher le minimum et le maximum
  */
 public class MoyenneBoucle {
 
