@@ -1,3 +1,4 @@
+// Ecrivez un programme qui saisit deux nombres n1 et n2 et qui calcul ensuite la somme des entiers de n1 à n2.
 public class SommeIntervalle {
 
     public static void main(String[] args) {

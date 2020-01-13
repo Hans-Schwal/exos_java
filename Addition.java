@@ -1,3 +1,4 @@
+// Ecrivez un programme qui demande deux nombres à l’utilisateur et qui affiche la somme de ces deux nombres.
 public class Addition
 {
     public static void main( String args[] )	

@@ -1,3 +1,4 @@
+// II s'agit pour un nombre de secondes entré au clavier d'en déduire, son expression en nombre d'heures de minutes et de secondes.
 public class ConversionSecondes
 {
     public static void main( String args[] )	

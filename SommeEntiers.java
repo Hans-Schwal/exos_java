@@ -1,3 +1,4 @@
+// Ecrivez un programme qui affiche la somme des nombres inférieurs à N.
 public class SommeEntiers {
 
     public static void main(String[] args) {

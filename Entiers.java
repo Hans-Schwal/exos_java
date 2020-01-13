@@ -1,3 +1,4 @@
+// Ecrivez un programme qui affiche les nombres inférieurs à N.
 public class Entiers {
 
     public static void main(String[] args) {

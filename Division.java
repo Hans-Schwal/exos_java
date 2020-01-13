@@ -1,3 +1,4 @@
+// Modifier le programme précédent pour effectuer une division.
 public class Division
 {
     public static void main( String args[] )	

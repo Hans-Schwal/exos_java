@@ -1,9 +1,5 @@
-/* 
-Faire la saisie de 2 nombres entiers, puis la saisie d'un opérateur '+', '-', '*' ou '/'.
-Si l'utilisateur entre un opérateur erroné, le programme affichera un message d'erreur.
-Dans le cas contraire, le programme effectuera l'opération demandée (en prévoyant le cas d'erreur "division par 0"), puis affichera le résultat.
-*/
-public class Calculette
+// Reprendre le programme de calculette présenté dans le chapitre précédent, et le modifier pour intégrer des fonctions correspondant aux opérations effectuées.
+public class CalculetteFonctions
 {
     public static void main( String args[] )	
     {	

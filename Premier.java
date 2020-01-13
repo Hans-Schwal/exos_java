@@ -1,6 +1,6 @@
-/**
- * Premier
- */
+/*
+Ecrivez un programme qui permet de tester si un nombre est premier.
+*/
 public class Premier {
 
     public static void main(String[] args) {
