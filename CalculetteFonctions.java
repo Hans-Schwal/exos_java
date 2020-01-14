@@ -6,7 +6,6 @@ public class CalculetteFonctions
         int n ;
         char operateur ;
         int n2 ;
-        //int resultat;
         
         System.out.println("Entrez un premier entier: ");
         n = Console.lireI();
