@@ -4,10 +4,7 @@
 public class FonctionsMultiplication {
 
     public static void main(String[] args) {
-        System.out.println(TableMultiplication());
+        System.out.println();
     }
-    public static int TableMultiplication(){
         
-        return ; 
-    }
 }

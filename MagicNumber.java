@@ -8,7 +8,7 @@ public class MagicNumber {
     public static void main(String[] args) {
         int reponse;
         
-        int magic = (int)(Math.random()*100);
+        int magic = (int)(Math.random()*500);
         //System.out.println(magic);
 
         do {

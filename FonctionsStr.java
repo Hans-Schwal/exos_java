@@ -1,5 +1,5 @@
 /**
- * Ecrire une fonction qui affiche le nombre de mots d’une phrase
+ Ecrire une fonction qui affiche le nombre de mots d’une phrase
  */
 public class FonctionsStr {
 

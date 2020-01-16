@@ -4,18 +4,27 @@
 public class FonctionsIntroduction {
 
     public static void main(String[] args) {
-        System.out.println(additionner(0,0,' ')); 
+        System.out.println(calcul('/', 2, 0));
     }
 
-    public static int additionner(int a, int b, char operateur) {
-        System.out.println("Entrez un premier entier");
-        a = Console.lireI();
-        System.out.println("Entrez un operateur");
-        System.out.println("Entrez un deuxième entier");
-        b = Console.lireI();
+    public static double calcul(char operateur, double val1, double val2) {
+ 
+        double resultat = 0;
 
-        int resultat = a + b;
-
+        if (operateur=='+') 
+            resultat = val1+val2;
+        else if (operateur=='-') 
+            resultat = val1-val2;
+        else if (operateur=='*') 
+            resultat = val1*val2;
+        else if (operateur=='/') {
+            if (val2==0) {
+                System.out.println("Opération impossible");
+            }
+            resultat = val1/val2;
+        }
+        else 
+            System.out.println("L'opérateur doit être + - * /");
         return resultat;
     }
 }
