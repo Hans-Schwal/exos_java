@@ -1,5 +1,3 @@
-import java.io.PrintStream;
-
 /**
  * Fonctions
  */
@@ -52,8 +50,6 @@ public class Fonctions {
 
 
     public static int compteMot(String phrase) {
-        int compteur = 0;
-
         String[] tab = phrase.split("\\s+");
 
         return tab.length;
