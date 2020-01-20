@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /*
 Cette classe comporte 2 données membres : 1 tableau de types entiers et la taille du tableau.
 Cette classe contient 3 méthodes (fonctions membres) :
@@ -6,47 +8,33 @@ Cette classe contient 3 méthodes (fonctions membres) :
     Fonction affiche() qui affiche le tableau.
 Créer un second fichier comme application qui crée 2 tableaux de tailles différentes, qui les trie et qui les affiche.
 */
+
 public class TriNombres {
-    // Attributs
+
+    int [] tab;
     int taille;
-    int tableau[] = new int[5];
 
-    // Constructeur
-    public TriNombres(int taille) {
-        this.taille = taille;
-    }
-
-    // Méthodes
-    public String saisie(int taille, String donnees) {
+    public void saisie() {
         System.out.println("Entrez la taille du tableau");
-        taille = Console.lireI();
-        tableau = new int[taille];
+        this.taille = Console.lireI();
+        this.tab = new int[this.taille];
 
-        for (int i = 0; i < tableau.length; i++) {
+        for (int i = 0; i < tab.length; i++) {
             System.out.println("Entrez une valeur pour la case " + i);
-            tableau[i] = Console.lireI();
+            this.tab[i] = Console.lireI();
         }
-
-        for (int v : tableau) {
-            System.out.print(v + " ");
-        }
-
-        return taille + donnees;
     }
 
     public void tri() {
-        for (int j = 0; j < tableau.length; j++) {
-            for (int i = 0; i < tableau.length - 1; i++) {
-                if (tableau[i] < tableau[i + 1]) {
-                    int tmp = tableau[i];
-                    tableau[i] = tableau[i + 1];
-                    tableau[i + 1] = tmp;
-                }
-            }
-        }
-
-        for (int p : tableau) {
-            System.out.print(p + " ");
-        }
+        Arrays.sort(this.tab);
     }
+
+    public void affiche() {
+        System.out.println("Contenu du tableau");
+        for (int i : tab) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+    }
+
 }
